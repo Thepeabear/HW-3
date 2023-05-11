@@ -1,0 +1,38 @@
+html {
+  background-image: linear-gradient(
+    rgb(29, 123, 230),
+    rgb(134, 2, 46),
+    rgb(0, 0, 0)
+  );
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+}
+.generator > h2 {
+  text-align: center;
+  padding-top: 15%;
+  color: aliceblue;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+#password {
+  text-align: center;
+  padding-top: 15%;
+  color: aliceblue;
+  font-size: 28px;
+}
